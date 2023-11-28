@@ -14,8 +14,8 @@ public class Main {
         boolean res1 = PalindromeNumExample.isPalindrome_v1(1001);
         System.out.println(res1);
 
-//        boolean res2 = PalindromeNumExample.isPalindrome_v2(121);
-//        System.out.println(res2);
+        boolean res2 = PalindromeNumExample.isPalindrome_v2(1001);
+        System.out.println(res2);
 
     }
 }

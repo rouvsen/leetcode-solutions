@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
-
 public class PalindromeNumExample {
 
     public static boolean isPalindrome_v1(int x) {
@@ -23,9 +21,19 @@ public class PalindromeNumExample {
     }
 
     public static boolean isPalindrome_v2(int num) {
+        if (num < 0)
+            return false;
 
+        int reversed = 0;
+        int inp = num;
 
-        return false;
+        while (num != 0) {
+            reversed = reversed * 10 + num % 10;
+            num = num / 10;
+        }
+
+        return reversed == inp;
     }
+
 }
 
