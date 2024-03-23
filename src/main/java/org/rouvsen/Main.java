@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.Arrays;
+package org.rouvsen;
 
 public class Main {
     public static void main(String[] args) {

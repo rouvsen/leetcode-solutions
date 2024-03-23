@@ -1,4 +1,4 @@
-package org.example;
+package org.rouvsen;
 
 public class PalindromeNumExample {
 
